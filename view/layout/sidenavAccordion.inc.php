@@ -58,6 +58,30 @@
                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                 Tables
             </a>
+
+            <a class="nav-link" href="article.php">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Articles
+            </a>
+            <a class="nav-link" href="categories.php">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Categories
+            </a>
+            <a class="nav-link" href="users.php">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Users
+            </a>
+            <a class="nav-link" href="comments.php">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Comments
+            </a>
+            <a class="nav-link" href="listcontacts.php">
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                List Contacts
+            </a>
+            
+
+            
         </div>
     </div>
     <div class="sb-sidenav-footer">
