@@ -14,17 +14,13 @@
                     <table id="datatablesSimple">
                         <thead>
                             <tr>
-                                <th>user_login</th>
-                                <th>cat_descr</th>
-                                <th>post_content</th>
+                                <th>contact_name</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach ($data as $onedata) { ?>
                                 <tr>
-                                    <td><?= $onedata["display_name"] ?></td>
-                                    <td><?= $onedata["cat_descr"] ?></td>
-                                    <td><?= $onedata["post_content"] ?></td>
+                                    <td><?= $onedata["contact_name"] ?></td>
                                 </tr>
                             <?php } ?>
                         </tbody>

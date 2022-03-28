@@ -14,17 +14,17 @@
                     <table id="datatablesSimple">
                         <thead>
                             <tr>
-                                <th>user_login</th>
-                                <th>cat_descr</th>
-                                <th>post_content</th>
+                                <th>display name</th>
+                                <th>post title</th>
+                                <th>comment_content</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach ($data as $onedata) { ?>
                                 <tr>
                                     <td><?= $onedata["display_name"] ?></td>
-                                    <td><?= $onedata["cat_descr"] ?></td>
-                                    <td><?= $onedata["post_content"] ?></td>
+                                    <td><?= $onedata["post_title"] ?></td>
+                                    <td><?= $onedata["comment_content"] ?></td>
                                 </tr>
                             <?php } ?>
                         </tbody>
@@ -40,4 +40,5 @@
 <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
 <script src="js/datatables-simple-demo.js"></script>
 </body>
+
 </html>
